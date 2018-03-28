@@ -1,0 +1,29 @@
+﻿<!DOCTYPE HTML>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <title>Sky Invaders</title>   
+        <link rel="stylesheet" href="Styles/Main.css" />    
+    </head>
+    <body>
+        <script src="Scripts/Variables.js"></script>
+        <script src="Scripts/Keys.js"></script> 
+        <script src="Scripts/Game.js"></script>
+        <script language="JavaScript">
+            // TODO: Rozwazyc przeniesienie stałych
+            // do pliku Variables.js.
+            // TODO: Ujednolicić nazwy zmiennych.
+            var enemy_speed = 1;
+            var enemy_bullets = 5;
+            var bullet_speed = 3;
+            var scroll_speed = 1;
+            var score = 0;
+            var life = 3;
+            var gameOver = 0;
+            
+            initEnemies();
+            initEnemiesBullet();
+            main();
+        </script>
+    </body>
+</html>
